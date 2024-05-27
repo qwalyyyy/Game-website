@@ -1,0 +1,45 @@
+.profile-container {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: linear-gradient(to right, #007bff, #5179d6); /* Добавлен фоновый цвет контейнера */
+  color: #fff; /* Весь текст в контейнере теперь белый */
+}
+
+.profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Обновлено для лучшего выравнивания */
+  margin-bottom: 10px;
+}
+
+.profile-label {
+  flex-basis: 40%; /* Увеличено пространство для меток */
+  color: #fff; /* Цвет текста меток */
+}
+
+.profile-value {
+  flex-basis: 60%; /* Увеличено пространство для данных */
+  color: #fff; /* Цвет текста данных */
+  text-align: right; /* Выравнивание текста данных по правому краю */
+}
+
+.profile-icon {
+  margin-right: 5px;
+  color: #fff; /* Цвет иконок */
+}
+
+/* Добавьте свои стили для иконок или других элементов, если это необходимо */

@@ -1,0 +1,26 @@
+.giveaway-container {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+  }
+  
+  .giveaway-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .game-card {
+    background: linear-gradient(to bottom, #0056b3, #007bff);
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .enter-button {
+    margin-top: 10px;
+  }
+  
+  .timer {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  

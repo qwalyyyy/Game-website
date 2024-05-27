@@ -1,0 +1,71 @@
+.portfolio-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.game-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  border-color: #007bff4f;
+}
+
+.card-body {
+  background: linear-gradient(to bottom, #ffffff00, #ffffff80);
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.game-card:hover .card-title,
+.game-card:hover .card-text {
+  color: #fff;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.original-price,
+.discounted-price {
+  color: #fff;
+}
+
+
+.discounted-price {
+  color: #007bff;
+}
+/* Увеличиваем ширину карточек игр */
+.game-card {
+  width: 100%; /* Пример: установите нужное значение ширины */
+}
+
+/* Увеличиваем ширину изображения в карточке */
+.card-img-top {
+  width: 100%; /* Пример: установите нужное значение ширины */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}

@@ -1,0 +1,73 @@
+/* Sale.css */
+.sale_container {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #9900ff, #035d81); /* Blue gradient background */
+    color: white; /* White text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .sale_container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+  }
+  
+  .sale_container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sale_container li {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for list items */
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+  }
+  
+  .sale_container h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #00b4db;
+  }
+  
+  .sale_container p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .sale_container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00b4db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .sale_container a:hover {
+    background-color: #0083b0;
+    transform: scale(1.1);
+  }
+  .sale_container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }

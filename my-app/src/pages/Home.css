@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
+  color: #fff; /* Белый текст для контраста */
+}
+
+/* Home Container */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 10px; /* Скругление углов */
+  
+}
+
+/* Slider Container */
+.slider-container {
+  max-width: 800px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  overflow: hidden;
+  
+  
+}
+
+/* Slider Image */
+.slider-image {
+  width: 800px;
+  height: 420px;
+  border-radius: 10px;
+}
+
+/* Image Wrapper */
+.image-wrapper {
+  position: relative;
+}
+
+/* Slider Arrows */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.slider-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+/* Button Images Container */
+.button-images-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button-image-wrapper {
+  margin: 0 20px; /* Adjust space between images */
+}
+
+/* Image Button */
+.image-button {
+  display: block;
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Text */
+.button-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.image-button:hover .button-text {
+  color: #55acee;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Key Features Section */
+.key-features {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.key-features h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.key-features .feature {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.key-features .feature-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #333; /* Dark background color */
+  border-radius: 10px;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
+}
+
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.testimonials .testimonial {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.testimonials .testimonial p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonials .testimonial .author {
+  font-size: 14px;
+  font-weight: bold;
+}

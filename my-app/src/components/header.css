@@ -1,0 +1,23 @@
+/* Header Styles */
+.custom-navbar {
+    background: linear-gradient(to right, #9900ff, #035d81); /* Градиентный фон от синего к более темному синему */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Более заметная тень для эффекта всплывания */
+}
+
+.logo {
+    margin-right: 10px; /* Добавляем пространство между логотипом и текстом */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Белый текст для ссылок навигации */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+    font-weight: bold; /* Жирный шрифт для ссылок */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffca08; /* Цвет при наведении */
+}
+
+.vector {
+    margin-right: 5px; /* Добавляем пространство между иконкой профиля и текстом */
+}

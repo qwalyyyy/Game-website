@@ -1,0 +1,104 @@
+/* RegistrationPage.css */
+
+.registration-container1 {
+    background: linear-gradient(to right, #007bff, #4b6cb7);
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px; /* Adjust width as needed */
+    margin: 40px auto; /* Center the container */
+    color: #fff; /* Text color */
+    animation: fadeInUp 1s ease; /* Fade-in animation */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  /* Additional styles for form elements */
+  .form-group1 {
+    margin-bottom: 20px;
+    animation: slideInLeft 1s ease; /* Slide-in animation */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  button {
+    width: calc(30% - 22px); /* Adjust width for borders */
+    padding: 12px;
+    margin-left: 700px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  input[type='text']:hover,
+  input[type='password']:hover,
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  button {
+    background-color: #4b6cb7;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #182848;
+  }
+
+.form-heading1{
+margin-left: 960px;
+  }
+
+.form-heading2{
+  margin-left: 900px; 
+}
+
+.username1{
+  margin-left: 700px;
+  }
+
+.username2{
+  margin-left: 700px;
+}
+
+.password{
+  margin-left: 700px;
+}
+
+.password2{
+  margin-left: 700px;
+}
+
+.confirmPassword{
+  margin-left: 700px;
+}
+  
+  /* Animation keyframes */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
