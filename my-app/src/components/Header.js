@@ -26,13 +26,13 @@ export default class Header extends Component {
                             <Nav.Link href="/sale">SALE!</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/profile">
+                            <Nav.Link href="/Register">
                                 <img
                                     src={Vector}
                                     height="20"
                                     width="16"
                                     className="vector"
-                                    alt="Profile"
+                                    alt="Register"
                                 />
                             </Nav.Link>
                         </Nav>
